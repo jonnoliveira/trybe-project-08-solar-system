@@ -60,7 +60,7 @@ Este projeto foi meu primeiro contato com o React e a possibilidade de component
 
 ## 100% :heavy_check_mark:
 
-![Project-Solar-System-Grade]()
+![Project-Solar-System-Grade](https://github.com/jonnoliveira/trybe-project-08-solar-system/blob/main/image/solar-system-grade.png)
 
 </details> 
  
