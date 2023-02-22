@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/trybe-project-08-solar-system/static/css/main.9dd31b3f.css",
+    "main.js": "/trybe-project-08-solar-system/static/js/main.97fa32ac.js",
+    "static/media/mercurio2.png": "/trybe-project-08-solar-system/static/media/mercurio2.542252e76f26181a803f.png",
+    "static/media/Terra.png": "/trybe-project-08-solar-system/static/media/Terra.990ac782d3b62d230d28.png",
+    "static/media/Venus.png": "/trybe-project-08-solar-system/static/media/Venus.397fdee264550fe0d0d1.png",
+    "static/media/Marte.png": "/trybe-project-08-solar-system/static/media/Marte.6cae79d3ef1a90069610.png",
+    "static/media/Jupiter.png": "/trybe-project-08-solar-system/static/media/Jupiter.529cdbe0cad25f29f533.png",
+    "static/media/Netuno.png": "/trybe-project-08-solar-system/static/media/Netuno.48cf14b71b63a23d6f8a.png",
+    "static/media/Saturno.png": "/trybe-project-08-solar-system/static/media/Saturno.00b7295f54e9af9bbe90.png",
+    "static/media/Urano.png": "/trybe-project-08-solar-system/static/media/Urano.607cb33ce7cb511e3d9c.png",
+    "static/media/slick.svg": "/trybe-project-08-solar-system/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/trybe-project-08-solar-system/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/trybe-project-08-solar-system/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/trybe-project-08-solar-system/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/trybe-project-08-solar-system/index.html",
+    "main.9dd31b3f.css.map": "/trybe-project-08-solar-system/static/css/main.9dd31b3f.css.map",
+    "main.97fa32ac.js.map": "/trybe-project-08-solar-system/static/js/main.97fa32ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dd31b3f.css",
+    "static/js/main.97fa32ac.js"
+  ]
+}
