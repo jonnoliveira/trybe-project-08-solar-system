@@ -58,3 +58,49 @@
   display: flex;
 }
 
+@media screen and ( min-width : 768px ) {
+
+  .mission-card {
+    height: 20vh;
+    width: 45%;
+    margin-top: 3vh;
+    padding: 15px;
+    margin: 15px;
+  }
+  
+  .mission-name {
+    width: 100%;
+  }
+
+  .mission-year img, .mission-country img, .mission-destination img {
+    margin-right: 5px;
+  }
+}
+
+@media screen and ( min-width : 1024px ) {
+
+  .mission-card {
+    height: 20vh;
+    width: 40%;
+    margin-top: 3vh;
+    margin: 15px;
+  }
+
+  .mission-name {
+    font-size: 1em
+  }
+
+  .mission-destination p, .mission-country p, .mission-year p {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and ( min-width : 1440px ) {
+
+  .mission-card {
+    height: 20vh;
+    width: 30%;
+    margin-top: 3vh;
+    margin: 15px;
+  }
+}

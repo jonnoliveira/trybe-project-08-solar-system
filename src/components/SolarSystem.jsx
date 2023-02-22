@@ -14,24 +14,48 @@ function SolarSystem() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    arrows: false,
   };
+  
+  const WIDTH = 1024;
+  console.log(window.screen.width)
     return (
       <div data-testid="solar-system" className="solarSystem">
         <div className="title">
           <Title headline="Planetas" />
         </div>
         <div className="line" />
-          <Slider { ...settings } className='slider'>
-            {planets
-              .map((planet) => {
-                const { name, image } = planet;
-                return (<PlanetCard
-                  key={ name }
-                  planetName={ name }
-                  planetImage={ image }
-                />);
-              })}
-          </Slider>
+         {
+            window.screen.width < WIDTH
+              ? 
+              (
+                <Slider { ...settings } className='slider'>
+                  {planets
+                    .map((planet) => {
+                      const { name, image } = planet;
+                      return (<PlanetCard
+                        key={ name }
+                        planetName={ name }
+                        planetImage={ image }
+                      />);
+                    })}
+                </Slider>
+              )
+              : 
+              (
+                <div className='planets-display'>
+                  {planets
+                    .map((planet) => {
+                      const { name, image } = planet;
+                      return (<PlanetCard
+                        key={ name }
+                        planetName={ name }
+                        planetImage={ image }
+                      />);
+                    })}
+                </div>
+              )
+         }
       </div>
     );
   }

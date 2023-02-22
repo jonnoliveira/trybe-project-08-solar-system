@@ -46,3 +46,120 @@
 .planetCard img {
   width: 100px;
 }
+
+@media screen and ( min-width : 425px) {
+
+  @keyframes planets {
+
+    0% {
+      transform: translateX(0);
+    }
+  
+    20% {
+      transform: translateX(0);
+    }
+  
+    30% {
+      transform: translateX(-250%);
+    }
+  
+    50% {
+      transform: translateX(-250%);
+    }
+  
+    60% {
+      transform: translateX(-500%);
+    }
+  
+    75% {
+      transform: translateX(-500%);
+    }
+  
+    80% {
+      transform: translateX(-620%);
+    }
+  
+    100% {
+      transform: translateX(-620%);
+    }
+  }
+}
+
+@media screen and ( min-width : 768px) {
+
+  @keyframes planets {
+
+    0% {
+      transform: translateX(0);
+    }
+  
+    20% {
+      transform: translateX(0);
+    }
+  
+    30% {
+      transform: translateX(-230%);
+    }
+  
+    50% {
+      transform: translateX(-230%);
+    }
+  
+    60% {
+      transform: translateX(-450%);
+    }
+  
+    75% {
+      transform: translateX(-450%);
+    }
+  
+    80% {
+      transform: translateX(-550%);
+    }
+  
+    100% {
+      transform: translateX(-550%);
+    }
+  }
+}
+
+@media  screen and ( min-width : 1024px ) {
+  
+  .planetCard {
+    animation: none;
+    margin-left: 2vw;
+    justify-content: center;
+  }
+
+  .planetCard .Mercúrio {
+    width: 30px;
+  }
+
+  .planetCard .Vênus {
+    width: 73px;
+  }
+
+  .planetCard .Terra {
+    width: 76px;
+  }
+
+  .planetCard .Marte {
+    width: 47px;
+  }
+
+  .planetCard .Júpiter {
+    width: 195px;
+  }
+
+  .planetCard .Saturno {
+    width: 200px;
+  }
+
+  .planetCard .Urano {
+    width: 103px;
+  }
+
+  .planetCard .Netuno {
+    width: 103px;
+  }
+}

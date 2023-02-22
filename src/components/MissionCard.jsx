@@ -30,7 +30,7 @@ class MissionCard extends Component {
               <p data-testid="mission-destination">
                 { destination }
               </p>
-            </div>
+</div>
           </div>
       </div>
     );

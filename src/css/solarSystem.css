@@ -1,4 +1,21 @@
+.solarSystem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .slider {
   width: 80%;
-  margin-left: 10vw;
+}
+
+.title {
+  width: 150px;
+}
+
+@media  screen and ( min-width : 1024px ) {
+  .planets-display {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+  }
 }

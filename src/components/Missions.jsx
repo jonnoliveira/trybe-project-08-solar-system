@@ -8,7 +8,10 @@ class Missions extends Component {
   render() {
     return (
       <div data-testid="missions" className='missions'>
-        <Title headline="Missões" />
+        <div className="title-mission">
+          <Title headline="Missões" />
+        </div>
+        <div className='missions-list'>
         {missions
           .map((mission, index) => {
             const { name, year, country, destination } = mission;
@@ -22,6 +25,7 @@ class Missions extends Component {
               />
             );
           })}
+        </div>
       </div>
     );
   }
