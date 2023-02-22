@@ -1,13 +1,25 @@
- .App {
-   text-align: center;
- }
+/* ================= GLOBAL CSS ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
 
  body {
-   background-image: url(./images/background.png);
-   color: white;
+   background: 
+    linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.904)),
+    url(https://i.pinimg.com/originals/3a/0b/40/3a0b40d96c53860572a1c29970ce14a8.gif);
 
+   color: white;
  }
 
+ main {
+  display: flex;
+  flex-direction: column;
+ }
+/*
  .header {
    display: flex;
    justify-content: center;
@@ -100,4 +112,4 @@
  .Netuno {
    width: 144px;
    height: 107px;
- }
+ } */

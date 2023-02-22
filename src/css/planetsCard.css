@@ -1,0 +1,48 @@
+.planetCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 30vh;
+  margin: 12px;
+  animation: planets 10s forwards infinite;
+}
+
+@keyframes planets {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(0);
+  }
+
+  30% {
+    transform: translateX(-270%);
+  }
+
+  50% {
+    transform: translateX(-270%);
+  }
+
+  60% {
+    transform: translateX(-550%);
+  }
+
+  75% {
+    transform: translateX(-550%);
+  }
+
+  80% {
+    transform: translateX(-680%);
+  }
+
+  100% {
+    transform: translateX(-680%);
+  }
+}
+
+.planetCard img {
+  width: 100px;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import '../css/planetsCard.css';
 
 class PlanetCard extends Component {
   render() {

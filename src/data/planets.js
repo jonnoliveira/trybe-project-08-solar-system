@@ -1,4 +1,4 @@
-import MercurioImg from '../images/Mercurio.png';
+import MercurioImg from '../images/mercurio2.png';
 import VenusImg from '../images/Venus.png';
 import TerraImg from '../images/Terra.png';
 import MarteImg from '../images/Marte.png';
