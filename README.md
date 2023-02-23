@@ -74,5 +74,7 @@ Este projeto foi meu primeiro contato com o React e a possibilidade de component
 
 </summary>
 
+![Project-Solar-System-Preview-1](https://github.com/jonnoliveira/trybe-project-08-solar-system/blob/main/image/solar-system-preview-1.png)
+![Project-Solar-System-Preview-2](https://github.com/jonnoliveira/trybe-project-08-solar-system/blob/main/image/solar-system-preview-2.png)
   
 </details>
