@@ -36,25 +36,25 @@ Este projeto foi meu primeiro contato com o React e a possibilidade de component
 
 </summary>
 
-### I. Crie um componente chamado Header
+* I. Crie um componente chamado Header
 
-### II. Crie um componente chamado SolarSystem
+* II. Crie um componente chamado SolarSystem
 
-### III. Crie um componente chamado Title
+* III. Crie um componente chamado Title
 
-### IV. Renderize o componente Title dentro do componente SolarSystem
+* IV. Renderize o componente Title dentro do componente SolarSystem
 
-### V. Crie um componente chamado PlanetCard
+* V. Crie um componente chamado PlanetCard
 
-### VI. Renderize uma lista com os planetas do Sistema Solar
+* VI. Renderize uma lista com os planetas do Sistema Solar
 
-### VII. Crie um componente chamado Missions.
+* VII. Crie um componente chamado Missions.
 
-### VIII. Renderize o componente Title dentro do componente Missions.
+* VIII. Renderize o componente Title dentro do componente Missions.
 
-### IX. Crie um componente chamado MissionCard.
+* IX. Crie um componente chamado MissionCard.
 
-### X. Renderize uma lista com as missões espaciais
+* X. Renderize uma lista com as missões espaciais
 
 </details>
 
